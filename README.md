@@ -7,7 +7,7 @@
 ## Estrutura do Código em C
 
 ### Bibliotecas Usadas
-O programa foi implementado em C++ e faz uso das seguintes bibliotecas:
+O programa foi implementado em C e faz uso das seguintes bibliotecas:
 - **`stdio.h`** e **`stdlib.h`**: Manipulação de entrada e saída, alocação de memória.
 - **`pthread.h`**: Para implementação do paralelismo com threads.
 - **`time.h`**: Para medir o tempo de execução.
