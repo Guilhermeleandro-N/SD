@@ -76,6 +76,16 @@ Gera um valor aleatório entre 100 e 1000 para ser usado como soma alvo.
 - **Números Lidos**: 5002
 - **Soma Alvo**: 223
 
+## Conclusão
+
+A implementação do programa **ParallelSubsetSum** demonstrou a eficácia do paralelismo na execução do problema de soma de subconjuntos. 
+
+- Para entradas menores, o paralelismo trouxe melhorias significativas no tempo de execução.
+- No entanto, para conjuntos maiores, a distribuição da carga de trabalho entre threads não foi linearmente eficiente, possivelmente devido ao overhead de criação e sincronização das threads.
+
+## Possíveis Melhorias
+
+Técnicas mais avançadas, como **poda de busca** ou **heurísticas baseadas em programação dinâmica**, poderiam ser exploradas para otimizar a busca de subconjuntos em conjuntos muito grandes.
 | Threads | Subconjuntos Encontrados | Tempo Gasto (ms) |
 |---------|--------------------------|------------------|
 | 1       | 18                      | 15               |
