@@ -1,3 +1,42 @@
+# Relatório - Sistemas Distribuídos
+
+## Autores
+- Maria Clara Landim Braz
+- Guilherme Leandro Nogueira
+
+## Estrutura do Código em C++
+
+### Bibliotecas Usadas
+O programa foi implementado em C++ e faz uso das seguintes bibliotecas:
+- **`stdio.h`** e **`stdlib.h`**: Manipulação de entrada e saída, alocação de memória.
+- **`pthread.h`**: Para implementação do paralelismo com threads.
+- **`time.h`**: Para medir o tempo de execução.
+
+### Principais Funções
+
+#### `countSubsets()`
+Função executada por cada thread, que percorre subconjuntos do segmento do vetor de entrada e verifica se a soma dos elementos equivale ao valor alvo.
+
+#### `readNumbersFromFile()`
+Lê um conjunto de números inteiros a partir de um arquivo e os armazena em um array.
+
+#### `generateRandomTarget()`
+Gera um valor aleatório entre 100 e 1000 para ser usado como soma alvo.
+
+#### `findSubsetCount()`
+- Divide o vetor de entrada em segmentos, distribuindo-os entre threads.
+- Cria e executa as threads para processar os subconjuntos em paralelo.
+- Aguarda a finalização das threads e soma os resultados.
+
+#### `main()`
+- Lê os dados do arquivo.
+- Gera um valor alvo aleatório.
+- Executa o algoritmo variando o número de threads de 1 a 4.
+- Mede e exibe o tempo de execução e o número de subconjuntos encontrados.
+
+---
+
+
 ## Resultados por Arquivo
 
 ### Arquivo: inst100a
