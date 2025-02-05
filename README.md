@@ -4,7 +4,7 @@
 - Maria Clara Landim Braz
 - Guilherme Leandro Nogueira
 
-## Estrutura do Código em C++
+## Estrutura do Código em C
 
 ### Bibliotecas Usadas
 O programa foi implementado em C++ e faz uso das seguintes bibliotecas:
