@@ -83,8 +83,6 @@ A implementação do programa **ParallelSubsetSum** demonstrou a eficácia do pa
 - Para entradas menores, o paralelismo trouxe melhorias significativas no tempo de execução.
 - No entanto, para conjuntos maiores, a distribuição da carga de trabalho entre threads não foi linearmente eficiente, possivelmente devido ao overhead de criação e sincronização das threads.
 
-## Possíveis Melhorias
-
 Técnicas mais avançadas, como **poda de busca** ou **heurísticas baseadas em programação dinâmica**, poderiam ser exploradas para otimizar a busca de subconjuntos em conjuntos muito grandes.
 | Threads | Subconjuntos Encontrados | Tempo Gasto (ms) |
 |---------|--------------------------|------------------|
